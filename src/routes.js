@@ -9,7 +9,7 @@ export default function RoutesApp() {
     <Routes>
       <Route path="/" exact element={<Login />} />
       <Route path="/clientes" element={<Clientes />} />
-      <Route path="/cliente/novo/:alunoId" element={<NovoCliente />} />
+      <Route path="/cliente/novo/:clienteId" element={<NovoCliente />} />
     </Routes>
   );
 }
